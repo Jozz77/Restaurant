@@ -1,0 +1,12 @@
+.FoodMonth {
+    background: #F8F9FB;
+    border-radius: 0px 200px 0px 0px;
+}
+.FoodMonthCard{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+}
+.FoodMonthCard .img{
+    border-radius: 20px 20px 0 0;
+}

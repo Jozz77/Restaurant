@@ -1,0 +1,21 @@
+/* .HeroImage{
+    position: relative;
+
+} */
+.Hero{
+    background: url('./Assets/Overlay.png'), url('./Assets/Hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Hero::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /* background: rgba(6, 6, 6, 0.7); */
+
+}
