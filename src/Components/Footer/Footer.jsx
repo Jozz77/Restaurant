@@ -5,7 +5,7 @@ import Instagram from './Assets/Instagram.png'
 
 export default function Footer() {
   return (
-    <footer className="bg-[#F8F9FB] mt-[100vh] px-[5%] py-[2vh] ">
+    <footer className="bg-[#F8F9FB] px-[5%] py-[2vh] ">
       <section className="flex justify-between pt-[3vh]">
         <div className="w-[35%]">
           <h2 className="text-[1.7em] font-semibold leading-[36px] text-[#444444] ">Foodgram</h2>
