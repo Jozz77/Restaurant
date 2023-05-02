@@ -6,8 +6,52 @@ import MiddleLeft from './Assets/MiddleLeft.png'
 import MiddleRight from './Assets/MiddleRight.png'
 import Egglike from './Assets/Egglike.png'
 import Tomatoes from './Assets/Tomatoes.png'
+import { useState, useEffect } from "react";
+
+const MiddleFoodArray = [MiddleFood, MiddleRight, MiddleLeft]
+const MiddleLeftArray = [MiddleLeft, MiddleFood, MiddleRight]
+const MiddleRightArray = [MiddleRight, MiddleLeft, MiddleFood]
 
 export default function Hero() {
+ 
+  const [currentImage, setCurrentImage] = useState(0);
+
+   // switching the Middle food image 
+  useEffect(() => {
+    const switchImage = setInterval(() => {
+      if (currentImage === MiddleFoodArray.length - 1) {
+          setCurrentImage(0)
+      } else (
+        setCurrentImage(currentImage + 1)
+      )
+    }, 1500);
+    return (() => clearInterval(switchImage))
+  },[currentImage])
+
+  // switching the Left food image 
+  useEffect(() => {
+    const switchImage = setInterval(() => {
+      if (currentImage === MiddleLeftArray.length - 1) {
+          setCurrentImage(0)
+      } else (
+        setCurrentImage(currentImage + 1)
+      )
+    }, 1500);
+    return (() => clearInterval(switchImage))
+  },[currentImage])
+
+  // switching the Right food image 
+  useEffect(() => {
+    const switchImage = setInterval(() => {
+      if (currentImage === MiddleRightArray.length - 1) {
+          setCurrentImage(0)
+      } else (
+        setCurrentImage(currentImage + 1)
+      )
+    }, 1500);
+    return (() => clearInterval(switchImage))
+  },[currentImage])
+
   return (
     <section className=" Hero relative pb-[34vh]  w-full pt-[20vh]">
       <div className="w-[70%] mx-[15%] pt-[5vh] ">
@@ -33,13 +77,13 @@ export default function Hero() {
         </div>
       </div>
       <div className="w-[20%] absolute top-[85%] bottom-[0%] left-[40%] ">
-        <img src={MiddleFood} className="w-full" alt="" />
+        <img src={MiddleFoodArray[currentImage]} className="w-full" alt="" />
       </div>
       <div className="w-[15%] absolute top-[75%] bottom-[0%] left-[10%] ">
-        <img src={MiddleLeft} className="w-full" alt="" />
+        <img src={MiddleLeftArray[currentImage]} className="w-full" alt="" />
       </div>
       <div className="w-[15%] absolute top-[75%] bottom-[0%] right-[10%] ">
-        <img src={MiddleRight} className="w-full" alt="" />
+        <img src={MiddleRightArray[currentImage]} className="w-full" alt="" />
       </div>
       <div className="w-[15%] absolute top-[110%] bottom-[0%] left-[5%] ">
         <img src={Tomatoes} className="w-full" alt="" />

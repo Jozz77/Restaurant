@@ -3,7 +3,7 @@ import './Header.css'
 
 export default function Header() {
   return (
-    <header className="hidden md:flex justify-between fixed items-center z-10 w-full box-border text-[#FFFFFF] px-[5%] py-[2vh] ">
+    <header className="hidden md:flex justify-between fixed max-w-[1440px] items-center z-10 w-full box-border text-[#FFFFFF] px-[5%] py-[2vh] ">
       <h2 className="font-semibold text-bold text-[1.5em] leading-[36.31px] ">
         Foodgram
       </h2>

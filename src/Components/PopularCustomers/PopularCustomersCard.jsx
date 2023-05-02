@@ -1,20 +1,20 @@
 // import React from 'react'
-import Image from "./Assets/Image.png";
+
 import Star from "./Assets/Star.png"
 
-export default function PopularCustomersCard() {
+export default function PopularCustomersCard(props) {
   return (
     <section>
-      <div className="flex justify-center gap-[2%] mt-[5vh] items-center ">
+      <div className="flex justify-center gap-[2%] z-[-1] mt-[5vh] items-center ">
         <div className="">
-          <img className="[w-full]" src={Image} alt="" />
+          <img className="[w-full]" src={props.img} alt="" />
         </div>
         <div>
           <h3 className="text-[1.4em] font-Playfair text-center font-semibold text-[#000000] leading-[22px] pb-[0.5vh]  ">
-            Serhiy Hipsky
+            {props.name}
           </h3>
           <small className="text-[0.95em] text-center font-medium text-[#A3A3A3] leading-[17px]  ">
-            CEO Universal
+            {props.title}
           </small>
         </div>
       </div>
