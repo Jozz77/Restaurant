@@ -3,7 +3,7 @@
 
 } */
 .Hero{
-    background: url('./Assets/Overlay.png'), url('./Assets/Hero.png');
+    background: url('./Assets/All.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
