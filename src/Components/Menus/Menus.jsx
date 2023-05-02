@@ -10,6 +10,7 @@ import "swiper/css/pagination";
 // import "swiper/css/navigation";
 
 import MenuCard from "./MenuCard";
+// import MenuNavContoller from "./MenuNavContoller";css
 
 export default function Menus() {
   return (
@@ -35,7 +36,8 @@ export default function Menus() {
             disableOnInteraction: false,
             }}
             pagination={{
-            clickable: true,
+              // el: 'slider-controler',
+              clickable: true,
             }}
             navigation={false}
             modules={[Autoplay, Pagination, Navigation]}
@@ -50,6 +52,9 @@ export default function Menus() {
             <SwiperSlide> <MenuCard /></SwiperSlide>
             <SwiperSlide> <MenuCard /></SwiperSlide>
             <SwiperSlide> <MenuCard /></SwiperSlide>
+            {/* <MenuNavContoller 
+              className='slider-controler'
+            /> */}
         </Swiper>
         </div>
       </div>
