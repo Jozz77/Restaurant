@@ -8,7 +8,8 @@ body {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
+    font-size: calc(.5em + 1vw); 
 }
 
 /* font-family: 'Inter', sans-serif; */

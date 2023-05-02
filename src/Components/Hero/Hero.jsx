@@ -55,16 +55,16 @@ export default function Hero() {
   return (
     <section className=" Hero relative pb-[34vh]  w-full pt-[20vh]">
       <div className="w-[70%] mx-[15%] pt-[5vh] ">
-        <h1 className="text-[#FFFFFF] font-Playfair text-center text-[4em] font-bold leading-[110%]  ">
+        <h1 className="text-[#FFFFFF] font-Playfair text-center text-[4rem] font-bold leading-[110%]  ">
           People who love to eat are always the best people.
         </h1>
-        <p className="text-center text-[#EDEDED] pt-[5vh] px-[5%] text-[1.1em] font-normal leading-[130%] ">
+        <p className="text-center text-[#EDEDED] pt-[5vh] px-[5%] text-[1.1rem] font-normal leading-[130%] ">
           Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
           fugit, sed quia consequuntur magni aspernatur aut odit aut fugit, sed
           quia consequuntur magni dolores...
         </p>
         <div className="flex justify-center items-center pt-[5vh] gap-[2%] ">
-          <button className="bg-[#DF6751] text-[#FFFFFF]  px-[3%] py-[1%] rounded-[43px] ">
+          <button className="bg-[#DF6751] hover:bg-[#FE8B75] cursor-pointer text-[1rem] text-[#FFFFFF]  px-[3%] py-[1%] rounded-[43px] ">
             Explore our Menu
           </button>
           <div className="flex justify-center gap-[3%] ">

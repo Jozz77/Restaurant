@@ -10,7 +10,7 @@ export default function PartSuccessCard(props) {
         explain to you how all this mistaken idea of denouncing pleasure and
         praising pain was bmplete account of the system....
       </p>
-      <button className="text-[1.2rem]  font-medium text-[#FFFFFF] leading-[27px] bg-[#DF6751] px-[3%] mt-[3vh] py-[1vh] rounded-[40px] ">{props.button}</button>
+      <button className="text-[1.2rem]  font-medium text-[#FFFFFF] leading-[27px] bg-[#DF6751] hover:bg-[#FE8B75] px-[3%] mt-[3vh] py-[1vh] rounded-[40px] ">{props.button}</button>
     </div>
   );
 }

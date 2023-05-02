@@ -3,10 +3,11 @@ import Complete from "./Assets/Complete.png";
 import PartSuccessCard from "./PartSuccessCard";
 import Flower from "./Assets/Flower.png";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper";
+import { EffectCube, Pagination, Navigation } from "swiper";
 
 // Import Swiper styles
 import "swiper/css";
+import "swiper/css/effect-cube";
 import "swiper/css/pagination";
 import PartSuccessNavButton from "./PartSuccessNavButton";
 
@@ -20,9 +21,17 @@ export default function PartSuccess() {
       </div>
       <div className="w-[50%] px-[5%] pt-[13vh] ">
         <Swiper
-          modules={[Pagination, Navigation]}
-          spaceBetween={30}
-          slidesPerView={"auto"}
+          modules={[EffectCube, Pagination, Navigation]}
+          // spaceBetween={30}
+          // slidesPerView={"auto"}
+          effect={"cube"}
+          grabCursor={true}
+          cubeEffect={{
+            shadow: true,
+            slideShadows: true,
+            shadowOffset: 20,
+            shadowScale: 0.94,
+          }}
         >
           <SwiperSlide>
             <PartSuccessCard

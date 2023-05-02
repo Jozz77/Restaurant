@@ -22,8 +22,8 @@ export default function Menus() {
   return (
     <section className="pt-[25vh]">
       <div className="flex justify-center items-center gap-[6%] ">
-        <h2 className="text-semibold text-[2.4em] text-[#191D23] font-Playfair leading-[38px] ">Our foods menus</h2>
-        <p className="text-normal text-[1em] text-justify text-[#75797F] leading-[28px] w-[40%]  ">
+        <h2 className="text-semibold text-[2.4rem] text-[#191D23] font-Playfair leading-[38px] ">Our foods menus</h2>
+        <p className="text-normal text-[1rem] text-justify text-[#75797F] leading-[28px] w-[40%]  ">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
             illo inventore
