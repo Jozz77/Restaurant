@@ -1,14 +1,16 @@
 // import React from 'react'
 import { FaFacebook} from 'react-icons/fa';
 import { AiFillTwitterCircle, AiFillInstagram } from "react-icons/ai";
-import { MdOutlineEmail} from "react-icons/md";
-import Twitter from './Assets/Twitter.png'
-import Facebook from './Assets/Facebook.png'
-import Instagram from './Assets/Instagram.png'
+import { MdOutlineEmail, } from "react-icons/md";
+import { BsTelephone } from "react-icons/bs";
+import { HiOutlineLocationMarker } from "react-icons/hi";
+// import Twitter from './Assets/Twitter.png'
+// import Facebook from './Assets/Facebook.png'
+// import Instagram from './Assets/Instagram.png'
 
 export default function Footer() {
   return (
-    <footer className="bg-[#F8F9FB] px-[5%] py-[2vh] ">
+    <footer className="bg-[#F8F9FB] px-[5%] py-[2vh] hidden ">
       <section className="flex justify-between pt-[3vh]">
         <div className="w-[33%]">
           <h2 className="text-[1.7rem] font-semibold leading-[36px] text-[#444444] ">Foodgram</h2>
@@ -17,7 +19,7 @@ export default function Footer() {
             pleasure and praising pain was born and I will give you a complete
             account of the system idea of denouncing pleasure ...
           </p>
-          <div className='flex gap-[2%] pt-[2vh] '>
+          <div className='flex items-center gap-[1%] pt-[2vh] '>
             <div className='w-[7%]'><a href=""><FaFacebook className='w-full text-[#DF6751] hover:text-[#FE8B75] ' /></a></div>
             <div className='w-[7%]'><a href=""><AiFillTwitterCircle className='w-full text-[#DF6751] hover:text-[#FE8B75]'/></a></div>
             <div className='w-[7%]'><a href=""> <AiFillInstagram className='w-full text-[#DF6751] hover:text-[#FE8B75]' /></a></div>
@@ -40,16 +42,17 @@ export default function Footer() {
         </div>
         <div className='w-[25%]'>
             <h3 className="text-[1.7rem] pb-[2vh] font-Playfair font-semibold leading-[36px] text-[#444444]">Contact Us</h3>
-            <div className='flex pb-[1vh] gap-[5%]'>
-                <div className='w-[9%]'><MdOutlineEmail className='w-full' /></div>
+            <div className='flex items-center pb-[1vh] gap-[5%]'>
+                <div className='w-[6%]'><BsTelephone className='w-full text-[#DF6751]' /></div>
                 <p className="text-[1rem]  font-normal leading-[30px] text-[#75797F]">(209) 555-0104</p>
             </div>
-            <div className='flex pb-[1vh] gap-[5%]'>
-                <div className='w-[9%]'><img className='w-full' src={Instagram} alt="" /></div>
+            <div className='flex items-center  pb-[1vh] gap-[5%]'>
+            
+                <div className='w-[10%]'><MdOutlineEmail className='w-full text-[#DF6751]' /></div>
                 <p className="text-[1rem]  font-normal leading-[30px] text-[#75797F]" >michelle.rivera@example.com</p>
             </div>
-            <div className='flex pb-[1vh] gap-[5%]'>
-                <div className='w-[9%]'><img className='w-full' src={Twitter} alt="" /></div>
+            <div className='flex items-center  pb-[1vh] gap-[5%]'>
+                <div className='w-[10%]'><HiOutlineLocationMarker className='w-full text-[#DF6751]' /></div>
                 <p className="text-[1rem] w-[70%]  font-normal leading-[30px] text-[#75797F]">2715 Ash Dr. San Jose, South Dakota 83475</p>
             </div>
         </div>

@@ -1,10 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+ 
   content: [
     "./index.html",
     "./src/**/*.{js,jsx}",
   ],
   theme: {
+    screens: {
+      'xl': '1280px',
+      'lg': '1024px',
+      'md': '768px',
+      'sm': '640px',
+      'ssm': '420px'
+    },
     extend: {
         Primary:'#DF6751',
         Secondary:'#F8F9FB',
