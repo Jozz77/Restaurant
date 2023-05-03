@@ -13,13 +13,13 @@ import PartSuccessNavButton from "./PartSuccessNavButton";
 
 export default function PartSuccess() {
   return (
-    <section className="flex justify-between py-[5vh] relative ">
-      <div className="PartSuccess1 w-[50%] pt-[3vh]  ">
+    <section className="flex-column justify-between py-[1vh] relative md:flex lg:py-[3vh] xl:py-[5vh] ">
+      <div className="PartSuccess1 w-[100%] pt-[3vh] md:w-[50%] ">
         <div className="  ">
           <img className="w-full" src={Complete} alt="" />
         </div>
       </div>
-      <div className="w-[50%] px-[5%] pt-[13vh] ">
+      <div className="w-[100%] px-[5%] pt-[5vh] sm:pt-[5vh] md:pt-[3vh] md:w-[50%] lg:pt-[7vh] xl:pt-[13vh]  ">
         <Swiper
           modules={[EffectCube, Pagination, Navigation]}
           // spaceBetween={30}
@@ -51,7 +51,7 @@ export default function PartSuccess() {
           <PartSuccessNavButton />
         </Swiper>
       </div>
-      <div className="absolute bottom-[10%] right-[5%] w-[15%] ">
+      <div className="absolute bottom-[3%] right-[5%] w-[35%] ssm:bottom-[5%]  ssm:w-[30%] sm:bottom-[3%] sm:w-[25%]  md:bottom-[10%] md:right-[5%] md:w-[15%] ">
         <img className="w-full" src={Flower} alt="" />
       </div>
     </section>
