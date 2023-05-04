@@ -31,7 +31,7 @@ export default function Menus() {
       </div>
       <div className="px-[5%]">
         {/* large and above menucards */}
-        <div className="sm:hidden lg:py-[7vh] xl:py-[10vh]">
+        <div className="hidden lg:flex py-[7vh] xl:py-[10vh]">
             <Swiper
             slidesPerView={4}
             spaceBetween={3}
