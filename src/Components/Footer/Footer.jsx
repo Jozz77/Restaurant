@@ -10,7 +10,7 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#F8F9FB] px-[5%] py-[2vh] hidden ">
+    <footer className="bg-[#F8F9FB] px-[5%] py-[2vh] ">
       <section className="flex justify-between pt-[3vh]">
         <div className="w-[33%]">
           <h2 className="text-[1.7rem] font-semibold leading-[36px] text-[#444444] ">Foodgram</h2>

@@ -17,8 +17,8 @@ import PopularNavButtons from "./PopularNavButtons";
 
 export default function PopularCustomers() {
   return (
-    <section className="py-[5vh] relative ">
-      <h1 className="text-[2.3rem] font-Playfair text-center  font-semibold text-[#000000] leading-[56px]  ">
+    <section className="py-[5vh] relative md:py-[5vh] ">
+      <h1 className="text-[1.1rem] mt-[7vh] px-[5%] font-Playfair text-center  font-semibold text-[#000000] leading-[130%] ssm:mt-[3vh] ssm:text-[1.2rem] sm:text-[1.55rem] md:leading-[56px] md:text-[1.7rem] lg:text-[2rem] xl:text-[2.3rem] ">
         What our popular customers are saying
       </h1>
       <Swiper
@@ -60,11 +60,11 @@ export default function PopularCustomers() {
         </SwiperSlide>
         <PopularNavButtons />
       </Swiper>
-      <div className="absolute top-[5%] left-[15%] ">
-        <img className="w-full" src={QouteTop} alt="" />
+      <div className="absolute top-[5%] left-[5%] lg:left-[15%] ">
+        <img className="w-[60%] ssm:w-[3%] sm:w-full" src={QouteTop} alt="" />
       </div>
-      <div className="absolute bottom-[20%] right-[15%] ">
-        <img className="w-full" src={QouteBottom} alt="" />
+      <div className="absolute bottom-[10%] right-[5%] ssm:bottom-[20%]  lg:right-[15%] ">
+        <img className="w-[60%] ssm:w-[3%] sm:w-full" src={QouteBottom} alt="" />
       </div>
      
      
