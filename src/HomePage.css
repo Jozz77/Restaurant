@@ -3,3 +3,10 @@ main{
     border-radius: 0px 0px 0px 200px;;
     width: 100%;
 }
+@media screen and (max-width: 768px) {
+    main{
+        background: #F8F9FB;
+        border-radius: 0px 0px 0px 100px;;
+        width: 100%;
+    }
+  }

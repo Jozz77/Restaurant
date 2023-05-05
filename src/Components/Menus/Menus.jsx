@@ -105,7 +105,7 @@ export default function Menus() {
         </div>
 
         {/* medium and below menucards */}
-        <div className="flex py-[7vh] lg:hidden">
+        <div className="hidden md:flex py-[7vh] lg:hidden">
             <Swiper
             slidesPerView={3}
             spaceBetween={3}
@@ -177,6 +177,82 @@ export default function Menus() {
             /> */}
         </Swiper>
         </div>
+
+        {/* small and below menucards */}
+        <div className="flex py-[5vh] sm:py-[7vh] md:hidden">
+            <Swiper
+            slidesPerView={2}
+            spaceBetween={3}
+            // spaceBetween={30}
+            // centeredSlides={true}
+            autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+            }}
+            pagination={{
+              // el: 'slider-controler',
+              clickable: true,
+            }}
+            navigation={false}
+            modules={[Autoplay, Pagination, Navigation]}
+            className="mySwiper"
+        >
+            <SwiperSlide>
+               <MenuCard
+                img={Image1}
+                title="Barbecue Chicken Fried"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+               <MenuCard
+               title="Mutton biryani recipe"
+                img={Image2}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+               <MenuCard
+               title="Chicken roast recipe"
+                img={Image3}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+               <MenuCard
+               title="Great Pasta"
+                img={Image4}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+               <MenuCard
+               title="Barbecue Chicken Cooked"
+                img={Image5}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+               <MenuCard
+               title="Vegetable Pizza "
+                img={Image6}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+               <MenuCard
+               title="Barbecue Chicken Fried"
+                img={Image1}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+               <MenuCard
+               title="Mutton biryani recipe"
+                img={Image2}
+              />
+            </SwiperSlide>
+            
+            {/* <MenuNavContoller 
+              className='slider-controler'
+            /> */}
+        </Swiper>
+        </div>
+
+         
       </div>
     </section>
   );

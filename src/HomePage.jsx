@@ -13,7 +13,7 @@ export default function Homepage() {
   return (
     <div>
       <Header />
-      <main>
+      <main className='pb-[5vh] sm:pb-[0] ' >
         <Hero />
         <Menus />
       </main>

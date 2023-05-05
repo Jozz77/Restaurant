@@ -1,6 +1,6 @@
 .Menucard{
     background: #FFFFFF;
-    border-radius: 48px ;
+    border-radius: 48px;
 }
 
   .mySwiper{
@@ -29,4 +29,10 @@
   background-color: #DF6751 !important;
   transform: scale(150%);
   
+}
+@media screen and (max-width: 768px) {
+  .Menucard{
+    background: #FFFFFF;
+    border-radius: 24px;
+}
 }
