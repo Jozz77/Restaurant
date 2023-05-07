@@ -30,7 +30,7 @@ export default function Header() {
           </a>
           <a
             href=""
-            className="font-normal text-[0.95rem] leading-[24.2px] xl:text-[1.1rem]"
+            className="font-normal text-[0.95rem] leading-[24.2px]   xl:text-[1.1rem]"
           >
             About Us
           </a>
@@ -47,11 +47,11 @@ export default function Header() {
       </header>
 
       {/* mobile header */}
-      <header className="flex justify-between fixed max-w-[1440px] w-full items-center z-10  text-[#FFFFFF] px-[5%] py-[2vh] md:hidden ">
-        <h2 className="text-[1.8rem]">
+      <header className="flex justify-between fixed max-w-[1440px] w-full items-center z-10 text-[#FFFFFF] px-[5%] py-[1.5vh] sm:py-[2vh] md:hidden ">
+        <h2 className="text-[1.1rem] ssm:text-[1.3rem] sm:text-[1.8rem]">
           Foodgram
         </h2>
-        <GiHamburgerMenu className="text-[2rem]"/>
+        <GiHamburgerMenu className="text-[1.5rem] ssm:text-[1.7rem] sm:text-[2rem]"/>
       </header>
     </section>
   );

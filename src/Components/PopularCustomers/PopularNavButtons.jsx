@@ -1,6 +1,4 @@
 import { useSwiper } from 'swiper/react'
-import Previous from './Assets/Previous.png'
-import Next from './Assets/Next.png'
 import { BsArrowLeftCircle, BsFillArrowRightCircleFill } from "react-icons/bs";
 
 
