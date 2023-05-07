@@ -14,7 +14,7 @@ export default function FoodMonthCard(props) {
         </p>
         <div className='flex justify-between items-center pt-[2vh] ssm:pt-[2.5vh] md:pt-[1.5vh] xl:pt-[2vh] '>
                 <small className=' text-[0.7rem] font-semibold text-[#191D23] ssm:text-[0.9rem] md:text-[0.7rem]  xl:text-[0.8rem] '>$6.30</small>
-                <button className='text-[0.7rem] font-medium text-[#FFFFFF] leading-[19px] bg-[#DF6751] hover:bg-[#FE8B75] px-[5%] py-[0.5vh] rounded-[40px] ssm:py-[0.7vh]  ssm:text-[0.9rem] sm:py-[0.5vh] sm:text-[0.85rem]  md:text-[0.6rem] xl:text-[0.7rem] '>Order Now</button>
+                <button className='text-[0.6rem] font-medium text-[#FFFFFF] leading-[19px] bg-[#DF6751] hover:bg-[#FE8B75] px-[5%] py-[0.5vh] rounded-[40px] ssm:py-[0.7vh]  ssm:text-[0.9rem] sm:py-[0.5vh] sm:text-[0.85rem]  md:text-[0.6rem] xl:text-[0.7rem] '>Order Now</button>
             </div>
       </div>
     </div>
