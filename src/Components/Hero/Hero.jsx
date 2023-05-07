@@ -53,7 +53,7 @@ export default function Hero() {
   },[currentImage])
 
   return (
-    <section className=" Hero relative pb-[12vh] w-full pt-[12vh] ssm:pb-[15vh] sm:pb-[15vh] sm:pt-[15vh] md:pt-[20vh] lg:pt-[20vh] lg:pb-[20vh] xl:pb-[34vh] ">
+    <section className=" Hero relative pb-[12vh] w-full pt-[12vh] ssm:pb-[12vh] sm:pb-[15vh] sm:pt-[15vh] md:pt-[20vh] lg:pt-[20vh] lg:pb-[20vh] xl:pb-[34vh] ">
       <div className="w-[90%] mx-[5%] pt-[0vh] lg:w-[86%] lg:mx-[7%] lg:pt-[3vh]  xl:w-[70%] xl:mx-[15%] xl:pt-[5vh] ">
         <h1 className="text-[#FFFFFF] font-Playfair text-center text-[1.8rem] font-bold leading-[100%] sm:leading-[110%] sm:text-[3rem] md:text-[3.2rem] lg:leading-[100%] lg:text-[3.5rem] xl:text-[4rem] ">
           People who love to eat are always the best people.
@@ -63,11 +63,11 @@ export default function Hero() {
           fugit, sed quia consequuntur magni aspernatur aut odit aut fugit, sed
           quia consequuntur magni dolores...
         </p>
-        <div className="flex justify-center items-center pt-[3vh] gap-[2%] lg:pt-[5vh] ">
+        <div className="flex justify-center items-center pt-[3vh] gap-[0%] sm:gap-[2%] lg:pt-[5vh] ">
           <button className="bg-[#DF6751] hover:bg-[#FE8B75] cursor-pointer text-[0.6rem] text-[#FFFFFF]  px-[3%] py-[1%] rounded-[43px] sm:text-[1rem] ">
             Explore our Menu
           </button>
-          <div className="flex justify-center gap-[1%] sm:gap-[3%] ">
+          <div className="flex justify-center gap-[1%] ml-[2%] sm:ml-[0] sm:gap-[3%] ">
             <div><img src={Star} alt="" className="w-[70%] sm:w-full"/></div>
             <div><img src={Star} alt="" className="w-[70%] sm:w-full"/></div>
             <div><img src={Star} alt="" className="w-[70%] sm:w-full"/></div>
