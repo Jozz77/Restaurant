@@ -48,10 +48,10 @@ export default function Header() {
 
       {/* mobile header */}
       <header className="flex justify-between fixed max-w-[1440px] w-full items-center z-10 text-[#FFFFFF] px-[5%] py-[1.5vh] sm:py-[2vh] md:hidden ">
-        <h2 className="text-[1.1rem] ssm:text-[1.3rem] sm:text-[1.8rem]">
+        <h2 className="text-[1.4rem] ssm:text-[1.6rem] sm:text-[1.8rem]">
           Foodgram
         </h2>
-        <GiHamburgerMenu className="text-[1.5rem] ssm:text-[1.7rem] sm:text-[2rem]"/>
+        <GiHamburgerMenu className="text-[1.8rem] ssm:text-[1.9rem] sm:text-[2rem]"/>
       </header>
     </section>
   );
