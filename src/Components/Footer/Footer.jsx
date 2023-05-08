@@ -70,24 +70,24 @@ export default function Footer() {
           <h3 className="text-[1.5rem] pb-[1vh] font-Playfair font-semibold leading-[36px] text-[#444444] xl:pb-[2vh] lg:text-[1.7rem] ">
             Contact Us
           </h3>
-          <div className="flex pb-[1vh] gap-[5%]">
-            <div className="w-[6%]">
+          <div className="flex pb-[1vh] ">
+            <div className="w-[6%] mr-[5%]">
               <BsTelephone className="w-full text-[#DF6751]" />
             </div>
             <p className="text-[0.9rem]  font-normal leading-[150%] text-[#75797F] lg:text-[1rem] xl:leading-[30px]">
               (209) 555-0104
             </p>
           </div>
-          <div className="flex  pr-[5%] pb-[1vh] gap-[5%]">
-            <div className="w-[10%]">
+          <div className="flex  pr-[5%] pb-[1vh] ">
+            <div className="w-[10%] mr-[5%]">
               <MdOutlineEmail className="w-full text-[#DF6751]" />
             </div>
             <p className="text-[0.9rem] w-[70%] mr-[15%] font-normal leading-[150%] text-[#75797F] lg:text-[1rem] xl:leading-[30px]">
               michelle.rivera@example.com
             </p>
           </div>
-          <div className="flex  pb-[1vh] gap-[5%]">
-            <div className="w-[10%]">
+          <div className="flex  pb-[1vh] ">
+            <div className="w-[10%] mr-[5%]">
               <HiOutlineLocationMarker className="w-full text-[#DF6751]" />
             </div>
             <p className="text-[0.9rem] w-[70%]  font-normal leading-[150%] text-[#75797F] lg:text-[1rem] xl:leading-[30px]">
@@ -152,24 +152,24 @@ export default function Footer() {
             <h3 className="text-[1.1rem] pb-[1vh] font-Playfair font-semibold leading-[36px] text-[#444444] ssm:pb-[1.5vh] ">
               Contact Us
             </h3>
-            <div className="flex pb-[1vh] gap-[3%]">
-              <div className="w-[6%]">
+            <div className="flex pb-[1vh] ">
+              <div className="w-[6%] mr-[3%]">
                 <BsTelephone className="text-[0.7rem] text-[#DF6751]" />
               </div>
               <p className="text-[0.7rem]  font-normal leading-[150%] text-[#75797F] ">
                 (209) 555-0104
               </p>
             </div>
-            <div className="flex  pr-[5%] pb-[1vh] gap-[3%]">
-              <div className="w-[10%]">
+            <div className="flex  pr-[5%] pb-[1vh] ">
+              <div className="w-[10%] mr-[3%]">
                 <MdOutlineEmail className="text-[0.7rem] text-[#DF6751]" />
               </div>
               <p className="text-[0.7rem] w-[70%] mr-[15%] font-normal leading-[150%] text-[#75797F]" >
                 michelle.rivera@example.com
               </p>
             </div>
-            <div className="flex  pb-[1vh] gap-[3%]">
-              <div className="w-[10%]">
+            <div className="flex  pb-[1vh] ">
+              <div className="w-[10%] mr-[3%]">
                 <HiOutlineLocationMarker className="text-[0.7rem] text-[#DF6751]" />
               </div>
               <p className="text-[0.7rem] w-[70%]  font-normal leading-[150%] text-[#75797F]" >
@@ -182,7 +182,7 @@ export default function Footer() {
 
       <section className="pt-[3vh] md:pt-[5vh] lg:pt-[7vh]">
         <hr className="border-[#DDDDDD] border-y-[1px] border-solid " />
-        <p className="text-[0.6rem] font-normal leading-[30px] text-[#75797F] text-center pt-[0.5vh] ssm:pt-[1vh]  ssm:text-[0.8rem] sm:text-[1rem]  ">
+        <p className="text-[0.65rem] font-normal leading-[30px] text-[#75797F] text-center pt-[0.5vh] ssm:pt-[1vh]  ssm:text-[0.8rem] sm:text-[1rem]  ">
           © Copyright 2021 Besnik.All rights reserved.
         </p>
       </section>

@@ -58,13 +58,13 @@ export default function Hero() {
         <h1 className="text-[#FFFFFF] font-Playfair text-center text-[1.8rem] font-bold leading-[100%] sm:leading-[110%] sm:text-[3rem] md:text-[3.2rem] lg:leading-[100%] lg:text-[3.5rem] xl:text-[4rem] ">
           People who love to eat are always the best people.
         </h1>
-        <p className="text-center text-[#EDEDED] mx-[0%] pt-[3vh] px-[5%] text-[0.7rem] font-normal leading-[130%] sm:mx-[1%] sm:text-[1rem] md:mx-[3%] md:text-[1.1rem] lg:mx-[0%] lg:pt-[5vh] ">
+        <p className="text-center text-[#EDEDED] mx-[0%] pt-[3vh] px-[5%] text-[0.75rem] font-normal leading-[130%] sm:mx-[1%] sm:text-[1rem] md:mx-[3%] md:text-[1.1rem] lg:mx-[0%] lg:pt-[5vh] ">
           Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
           fugit, sed quia consequuntur magni aspernatur aut odit aut fugit, sed
           quia consequuntur magni dolores...
         </p>
         <div className="flex justify-center items-center pt-[3vh] gap-[0%] sm:gap-[2%] lg:pt-[5vh] ">
-          <button className="bg-[#DF6751] hover:bg-[#FE8B75] cursor-pointer text-[0.6rem] text-[#FFFFFF]  px-[3%] py-[1%] rounded-[43px] sm:text-[1rem] ">
+          <button className="bg-[#DF6751] hover:bg-[#FE8B75] cursor-pointer text-[0.8rem] text-[#FFFFFF]  px-[3%] py-[1%] rounded-[43px] sm:text-[1rem] ">
             Explore our Menu
           </button>
           <div className="flex justify-center gap-[1%] ml-[2%] sm:ml-[0] sm:gap-[3%] ">

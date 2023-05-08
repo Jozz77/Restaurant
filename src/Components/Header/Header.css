@@ -1,3 +1,38 @@
 header{
     background: rgba(6, 6, 6, 0.178);
 }
+.show{
+    display: block;
+    width: 80%;
+  }
+  .hide {
+    display: none;
+  }
+  .hideMenuNav {
+    display: none;
+    animation: 500ms fadeOut linear;
+  }
+  .showMenuNav {
+    width: 100%;
+    top: 10vh;
+    height: 90vh;
+    left: 0;
+    transform: translateY(0%);
+    animation: 500ms fadeIn linear;
+  }
+  @keyframes fadeIn {
+    0%{
+      transform: translateY(-100%);
+      z-index: 20;
+      opacity: 0;
+      top: -10vh;
+      height: 90vh;
+    }
+  }
+  @keyframes fadeOut {
+    100%{
+      transform: translateY(100%);
+      z-index: -1;
+      display: none;
+    }
+  }
