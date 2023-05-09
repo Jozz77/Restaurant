@@ -59,7 +59,7 @@ export default function Header() {
       </header>
 
       {/* mobile header */}
-      <header className="flex justify-between fixed h-[10vh] w-full items-center z-10 text-[#FFFFFF] px-[5%] py-[1.5vh] sm:py-[2vh] md:hidden ">
+      <header className="flex justify-between fixed h-[8vh] w-full items-center z-10 text-[#FFFFFF] px-[5%] py-[1.5vh] sm:h-[10vh] sm:py-[2vh] md:hidden ">
         <h2 className="text-[1.4rem] ssm:text-[1.6rem] sm:text-[1.8rem]">
           Foodgram
         </h2>
@@ -137,7 +137,7 @@ export default function Header() {
                 handleClick();
               }}
             >
-              <div className="hover:text-[#155EEF] font-semibold bg-[rgba(6, 6, 6, 0.644)] my-[1vh] text-[bold] rounded-[4px] px-[5%] py-[2vh]">
+              <div className="hover:text-[#155EEF] font-semibold bg-[#eaecf09a] my-[1vh] text-[bold] rounded-[4px] px-[5%] py-[2vh]">
                 {" "}
                 About Us
               </div>
